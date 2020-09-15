@@ -17,6 +17,7 @@ public class Yahtzee {
 		
 		for ( int i=1; i<5; i++);
 		{
+			System.out.print("You rolled " );
 			int roll=rand.nextInt(6)+1;
 			System.out.print(roll+" ");
 			int roll1=rand.nextInt(6)+1;
@@ -77,7 +78,7 @@ public class Yahtzee {
 		}else {
 			System.out.println("Your total roll stayed the same!");
 		}
-		
+		System.exit(0);
 		}while (reroll);
 		
 	}
